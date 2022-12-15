@@ -1,0 +1,182 @@
+@font-face {
+font-family: Tillana;
+src: url(font/Tillana-Regular.ttf);
+font-weight: 400;
+}
+
+@font-face {
+font-family: Tillana;
+src: url(font/Tillana-Medium.ttf);
+font-weight: 500;
+}
+
+@font-face {
+font-family: Tillana;
+src: url(font/Tillana-SemiBold.ttf);
+font-weight: 600;
+}
+
+html {
+background: #000000 url(images/bg.gif) no-repeat center center fixed;
+background-size: cover;
+}
+
+body { 
+font: 75% Tillana;
+line-height: 1.88889;
+color: #000000;
+margin: 0; 
+padding: 0;
+}
+p { 
+margin-top: 0;
+text-align: justify;
+}
+
+h3 { 
+font: 1.4em Tillana;
+letter-spacing: 1px;
+text-align: center4; 
+margin-bottom: 0; 
+color: #000000;
+}
+
+a {
+transition: color 1s;
+}
+
+a:link { 
+text-decoration: none; 
+color: #d42000de;
+}
+
+a:visited { 
+font-weight: bold; 
+text-decoration: underline black; 
+color: #971700de;
+}
+
+a:hover{
+color: #971700de;
+}
+
+a:focus, a:active { 
+text-decoration: none; 
+color: #971700de;
+}
+
+abbr {
+border-bottom: none;
+text-decoration: none;
+color: rgb(0, 0, 0);
+}
+
+.intro {
+    
+min-width: 470px;
+width: 200px;
+margin: 50px;
+}
+#zen-summary p{
+
+}
+.summary {
+display: block;
+float: right;
+background-image: url(images/parchmentbg.png);
+background-size: contain;
+width: 300px;
+}
+.summary p {
+font: 1.1em/2.2 Tillana; 
+text-align: center;
+width: 200px;
+margin-left: 50px;
+}
+
+#zen-preamble {
+    display: block;
+}
+
+#zen-supporting {
+display: block;
+float: right;
+background-image: url(images/parchmentbg.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+top: 10%;
+left: 10%;
+padding: 5em;
+margin: 5%;
+}
+
+#zen-supporting::-webkit-scrollbar {
+display: none;
+}
+
+.preamble {
+display: block;
+float: bottom;
+background-color: aliceblue;
+width: 800px;
+margin: 1.5em;
+padding: 1.5em;
+}
+
+footer { 
+text-align: center;
+position: fixed;
+bottom: 25px;
+align-content: center; 
+}
+footer a:link, footer a:visited { 
+margin-right: 20px; 
+}
+#zen-intro > header {
+position: fixed;
+top: 15%;
+left: 50%;
+background-image: url(images/parchmentbg.png);
+background-position: center;
+background-size: cover;
+text-align: center;
+width: 300px;
+}
+.sidebar {
+
+width: 360px;
+margin-left: 50px;
+}
+.sidebar .wrapper {
+background-image: url(images/parchmentbg.png);
+background-size: contain;
+position: fixed;
+top: 100px;
+right: 100px;
+}
+.sidebar h3.select {
+margin-left: 50px;
+}
+.sidebar h3.archives { 
+margin-left: 50px;
+}
+.sidebar h3.resources {
+margin-left: 50px;
+}
+
+.sidebar ul {
+margin-left: 50px;
+}
+.sidebar li {
+margin-left: 10px;
+padding-right: 30px;
+list-style: none;
+}
+.sidebar li a:link {
+color: #000000;
+text-decoration: underline;   
+}
+.sidebar li a:visited {
+color: #971700de;
+}
